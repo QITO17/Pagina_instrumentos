@@ -46,6 +46,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 nav{
 
@@ -118,7 +119,6 @@ i{
     gap: 10px;
     align-items: center;
     justify-items: center;
-    margin-right: 15px;
 }
 
 .contenedorFooter{
