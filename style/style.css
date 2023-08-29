@@ -70,7 +70,12 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: cyan;
+    transition: .5s;
+    color: #B09FCA;
+}
+
+i{
+    font-size: 2rem;
 }
 
 .seccion{
@@ -137,6 +142,9 @@ a:hover{
     position: relative;
     margin-top: 30px;
 }
+
+
+
 .svg1{
     position: absolute;
 }
