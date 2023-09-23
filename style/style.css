@@ -143,7 +143,22 @@ i{
     margin-top: 30px;
 }
 
+.DOFFA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 40px;
+}
 
+p-dofa{
+    font-size: 1.5rem;
+}
+
+p-dofa2{
+    max-width: 400px;
+}
 
 .svg1{
     position: absolute;
@@ -152,6 +167,48 @@ i{
 .svg2{
     position: absolute;
     bottom: 0;
+}
+
+.new--dofa{
+    margin: 50px auto;
+    display: flex;
+}
+
+.misiones .ms-pr{
+    max-width: 350px;
+    border: solid 2px;
+    
+}
+
+.img--misiones img{
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+
+.text--misiones h2{
+    padding-left: 10px;
+}
+
+.text--misiones p{
+    padding-left: 15px;
+}
+
+.text--misiones p, .text--misiones h2{
+    padding-right: 5px;
+}
+.organigrama--foto{
+    width: 800px;
+}
+
+.conteiner--valores{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.img--misiones img{
+    height: 326px;
 }
 
 @media (max-width:428px) {

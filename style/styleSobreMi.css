@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+    font-family: 'Indie Flower', cursive;
+    text-transform: capitalize;
+} 
+
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to left, rgb(227,240,231));
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+
+.conteiner{
+    z-index: 0;
+    margin: auto;
+    max-width: 1200px;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.organigrama--foto{
+    width: 800px;
+}
+.princ{
+    color: #000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.princ:hover{
+    transition: .1s;
+    background-color: rgb(137, 137, 219);
+    color: white;
+}
+
+h1 span{
+    color: rgb(137, 137, 219);
+}   
+
+i{
+    font-size: 2rem;
+}
+.header{
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+.redes{
+    
+    z-index: 2;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
