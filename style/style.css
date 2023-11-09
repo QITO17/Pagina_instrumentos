@@ -96,7 +96,17 @@ i{
 }
 .articulos img{
     width: 200px;
-    height: 150px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.zoom {
+    transition: .2s; 
+    opacity: .7;
+}
+ 
+.zoom:hover {
+    opacity: 1;
 }
 
 .contener--produ{
@@ -177,9 +187,19 @@ p-dofa2{
 .misiones .ms-pr{
     max-width: 350px;
     border: solid 2px;
+    height: 400px;
     
 }
 
+.precioF{
+    text-align: left;
+    padding-left: 14px;
+    font-size: 1.1rem;
+}
+
+.precioS{
+    color: #B09FCA;
+}
 .img--misiones img{
     width: 100%;
     border-bottom: 2px solid #000;
